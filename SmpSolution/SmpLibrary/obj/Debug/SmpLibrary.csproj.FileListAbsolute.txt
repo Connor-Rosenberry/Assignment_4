@@ -4,9 +4,3 @@ C:\Code\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.AssemblyReference.cac
 C:\Code\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.CoreCompileInputs.cache
 C:\Code\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.dll
 C:\Code\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.pdb
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\bin\Debug\SmpLibrary.dll
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\bin\Debug\SmpLibrary.pdb
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.AssemblyReference.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.CoreCompileInputs.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.dll
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.pdb

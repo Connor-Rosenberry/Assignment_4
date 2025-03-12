@@ -8,13 +8,3 @@ C:\Code\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.CoreCom
 C:\Code\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.exe
 C:\Code\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.pdb
 C:\Code\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.FormSmpClientConsumer.resources
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\bin\Debug\SmpClientConsumer.exe.config
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\bin\Debug\SmpClientConsumer.exe
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\bin\Debug\SmpClientConsumer.pdb
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.AssemblyReference.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.FormSmpClientConsumer.resources
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.Properties.Resources.resources
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.GenerateResource.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.CoreCompileInputs.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.exe
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.pdb

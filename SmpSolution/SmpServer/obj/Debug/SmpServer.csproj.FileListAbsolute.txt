@@ -8,13 +8,3 @@ C:\Code\SmpSolution\SmpServer\obj\Debug\SmpServer.csproj.CoreCompileInputs.cache
 C:\Code\SmpSolution\SmpServer\obj\Debug\SmpServer.exe
 C:\Code\SmpSolution\SmpServer\obj\Debug\SmpServer.pdb
 C:\Code\SmpSolution\SmpServer\obj\Debug\SmpServer.FormSmpServer.resources
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\bin\Debug\SmpServer.exe.config
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\bin\Debug\SmpServer.exe
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\bin\Debug\SmpServer.pdb
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.csproj.AssemblyReference.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.FormSmpServer.resources
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.Properties.Resources.resources
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.csproj.GenerateResource.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.csproj.CoreCompileInputs.cache
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.exe
-C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpServer\obj\Debug\SmpServer.pdb
