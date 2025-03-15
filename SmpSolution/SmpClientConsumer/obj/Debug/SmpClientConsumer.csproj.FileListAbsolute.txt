@@ -18,3 +18,13 @@ C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug
 C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.CoreCompileInputs.cache
 C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.exe
 C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.pdb
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\bin\Debug\SmpClientConsumer.exe.config
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\bin\Debug\SmpClientConsumer.exe
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\bin\Debug\SmpClientConsumer.pdb
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.AssemblyReference.cache
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.FormSmpClientConsumer.resources
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.Properties.Resources.resources
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.GenerateResource.cache
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.csproj.CoreCompileInputs.cache
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.exe
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpClientConsumer\obj\Debug\SmpClientConsumer.pdb

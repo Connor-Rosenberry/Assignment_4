@@ -10,3 +10,9 @@ C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLib
 C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.CoreCompileInputs.cache
 C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.dll
 C:\Users\carbe\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.pdb
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\bin\Debug\SmpLibrary.dll
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\bin\Debug\SmpLibrary.pdb
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.AssemblyReference.cache
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.dll
+C:\Users\Willo\Source\Repos\Assignment_4\SmpSolution\SmpLibrary\obj\Debug\SmpLibrary.pdb

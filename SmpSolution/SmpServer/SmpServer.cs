@@ -184,7 +184,10 @@ namespace SmpServer
             if (request == "GET_PUBLIC_KEY")
             {
                 return rsa.ToXmlString(false); // Send public key to client
+            } else if (request == "GET_PRIVATE_KEY") {
+                return rsa.ToXmlString(true); // Send private key to client
             }
+            else
             if (request.StartsWith("PUT:"))
             {
                 string[] messageParts = request.Substring(4).Trim().Split('\n'); // Remove "PUT:" and split linesspaces
@@ -212,31 +215,76 @@ namespace SmpServer
 
                 return "Message stored successfully!";
             }
-            else if (request.StartsWith("GET"))
+            else if (request.StartsWith("GET:"))
             {
-                if (File.Exists(messageFile))
+                int priority = int.Parse(request.Substring(4).Trim());
+
+                String ret = ConsumeRecordFromFile(request.Substring(4).Trim());
+                if (ret != null)
                 {
-                    string[] messages = File.ReadAllLines(messageFile);
-                    if (messages.Length > 0)
-                    {
-                        string firstMessage = messages[0];
-
-                        // Rewrite file without the first message (Compatible with older C#)
-                        using (StreamWriter writer = new StreamWriter(messageFile))
-                        {
-                            for (int i = 1; i < messages.Length; i++)
-                            {
-                                writer.WriteLine(messages[i]);
-                            }
-                        }
-
-                        return $"Message: {firstMessage}";
-                    }
+                    return $"Message: {ret}";
                 }
-                return "No messages available.";
+                else
+                {
+                    return "No messages available.";
+                }
             }
             return "Invalid request.";
         }
+
+        private string ConsumeRecordFromFile(string messagePriority)
+        {
+            string record = ""; // consumed record
+            string records = ""; // records without consumed record
+            bool foundRecord = false;
+
+            try
+            {
+                // Make sure the file exists
+                if (!File.Exists(messageFile))
+                {
+                    return null;
+                }
+
+                // Read all lines from file
+                string[] lines = File.ReadAllLines(messageFile);
+
+                // Process file in groups of 4 lines (version, priority, timestamp, encrypted message)
+                for (int i = 0; i < lines.Length; i += 4)
+                {
+                    if (i + 3 >= lines.Length)
+                        break; // Not enough lines remaining for a complete record
+
+                    string version = lines[i];
+                    string priority = lines[i + 1];
+                    string timestamp = lines[i + 2];
+                    string msg = lines[i + 3];
+
+                    // If this is the first record with matching priority and we haven't found one yet
+                    if (priority == messagePriority && !foundRecord)
+                    {
+                        // Format the record to return with encrypted message
+                        record = $"{version}\n{priority}\n{timestamp}\n{msg}";
+                        foundRecord = true;
+                        continue; // Skip this record when rebuilding the file
+                    }
+
+                    // Add this record to the records string
+                    records += version + "\n" + priority + "\n" + timestamp + "\n" + msg + "\n";
+                }
+
+                // Write remaining records back to file
+                File.WriteAllText(messageFile, records);
+
+                return foundRecord ? record : null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error processing file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+        }
+
 
         private void BtnLow_Click(object sender, EventArgs e)
         {

@@ -40,7 +40,7 @@
             this.Port_Input = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Address_input = new System.Windows.Forms.TextBox();
+            this.IP_Input = new System.Windows.Forms.TextBox();
             this.Messages_Container.SuspendLayout();
             this.Priority_Container.SuspendLayout();
             this.Settings_Container.SuspendLayout();
@@ -84,6 +84,8 @@
             this.Get_Message_button.TabIndex = 1;
             this.Get_Message_button.Text = "Get Message";
             this.Get_Message_button.UseVisualStyleBackColor = true;
+            this.Get_Message_button.Click += new System.EventHandler(this.btnGetMessage_Click);
+
             // 
             // Priority_Container
             // 
@@ -107,6 +109,7 @@
             this.High_Button.TabStop = true;
             this.High_Button.Text = "High";
             this.High_Button.UseVisualStyleBackColor = true;
+            this.High_Button.Click += new System.EventHandler(this.btnHigh_Click);
             // 
             // Medium_button
             // 
@@ -118,6 +121,7 @@
             this.Medium_button.TabStop = true;
             this.Medium_button.Text = "Medium";
             this.Medium_button.UseVisualStyleBackColor = true;
+            this.Medium_button.Click += new System.EventHandler(this.btnMedium_Click);
             // 
             // Low_button
             // 
@@ -129,13 +133,14 @@
             this.Low_button.TabStop = true;
             this.Low_button.Text = "Low";
             this.Low_button.UseVisualStyleBackColor = true;
+            this.Low_button.Click += new System.EventHandler(this.btnLow_Click);
             // 
             // Settings_Container
             // 
             this.Settings_Container.Controls.Add(this.Port_Input);
             this.Settings_Container.Controls.Add(this.label2);
             this.Settings_Container.Controls.Add(this.label1);
-            this.Settings_Container.Controls.Add(this.Address_input);
+            this.Settings_Container.Controls.Add(this.IP_Input);
             this.Settings_Container.Location = new System.Drawing.Point(12, 5);
             this.Settings_Container.Name = "Settings_Container";
             this.Settings_Container.Size = new System.Drawing.Size(509, 58);
@@ -170,10 +175,10 @@
             // 
             // Address_input
             // 
-            this.Address_input.Location = new System.Drawing.Point(104, 23);
-            this.Address_input.Name = "Address_input";
-            this.Address_input.Size = new System.Drawing.Size(150, 20);
-            this.Address_input.TabIndex = 0;
+            this.IP_Input.Location = new System.Drawing.Point(104, 23);
+            this.IP_Input.Name = "Address_input";
+            this.IP_Input.Size = new System.Drawing.Size(150, 20);
+            this.IP_Input.TabIndex = 0;
             // 
             // FormSmpClientConsumer
             // 
@@ -208,7 +213,7 @@
         private System.Windows.Forms.TextBox Port_Input;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox Address_input;
+        private System.Windows.Forms.TextBox IP_Input;
     }
 }
 
